@@ -1,0 +1,130 @@
+/*paralaxi kod*/
+
+/*.page {
+ position: absolute;
+ width: 100%;
+ height: 100%;
+ top: 0;
+ left: 0;
+}
+
+.parallax {
+	position: relative;
+	height: 100%;
+}
+
+.parallax__montain {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+}
+
+.parallax__montain_1 {
+background:url('img/m_1.png') 0 0 / cover no-repeat;
+}
+
+.parallax__montain_2 {
+	z-index: 1;
+	background:url('img/m_2.png') bottom right / 45% no-repeat;
+}
+
+.parallax__montain_3 {
+	z-index: 1;
+	background:url('img/m_3.png') left bottom / 100% no-repeat;
+}
+
+.parallax__fog {
+	background:url('img/fog_1.png') bottom / 100% no-repeat;
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	z-index: 2;
+}
+
+.content {
+	position: relative;
+}
+
+.content__body {
+	max-width: 1170px;
+	margin: 0px auto;
+}
+
+.content__header {
+	text-align: center;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+	padding: 0px 20px;
+}
+
+.content__title {
+	font-size: 200px;
+}
+
+.content__subtitle {
+	font-size: 120px;
+}
+
+.content__article {
+	background-color:#e0e0d1;
+	padding: 25px;
+	font-size: 14px;
+	line-height: 24px;
+}
+
+.content__article p{margin-bottom: 20px;}*/
+
+
+body {
+	font-family: arial;
+	padding:25px;
+	background-color: #f5f5f5;
+	color: #808080;
+	text-align: center;
+}
+
+.col-fourth {
+	width: 23.5%;
+}
+
+.col-fourth {
+	position: relative;
+	display: inline-block;
+	float: left;
+
+}
+
+.end {
+	margin-right: 0 !important;
+}
+
+.wrapper {
+	width: 90px;
+	margin: 30px auto;
+	position: relative;
+}
+
+.counter{
+	background:#fff;
+	padding: 20px 0px;
+	border-radius: 5px;
+}
+
+.count-text {
+	font-size: 13px;
+	font-weight: normal;
+	margin-top: 10px;
+	margin-bottom: 0px
+	text-align:center;
+}
+
+.fa-2x {
+	margin: 0 auto;
+	float: none;
+	display: table;
+	color: #4ad1e5;
+}

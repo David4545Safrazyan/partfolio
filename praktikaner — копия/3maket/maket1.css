@@ -1,0 +1,482 @@
+body {
+	margin: 0;
+	padding: 0;
+	background: #fff;
+	font-family: 'Lato', sans-serif;
+	
+}
+
+a {
+	text-decoration: none;
+}
+
+li {
+	list-style-type: none;
+}
+
+
+*,
+*:after,
+*:before {
+	box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0px;
+}
+
+
+
+.container {
+	width: 100%;
+	max-width: 1170px;
+	margin: 0 auto;
+}
+
+/*header*/
+
+.header {
+	position: absolute;
+	height: 100px;
+	width: 100%;
+	left: 0;
+	top: 0;
+	z-index: 1000;
+}
+.header__inner {
+	display: flex;
+	justify-content: space-between;
+	padding: 35px 0px;
+	align-items: center;
+}
+
+.nav {
+	font-size: 14px;
+	font-weight: 700;
+}
+
+.nav__link {
+	margin-left: 56px;
+	text-transform: uppercase;
+	color: #ffffff;
+	opacity: .75;
+}
+
+.nav__link:hover {
+	opacity: 1;
+	text-decoration: underline;
+}
+
+.header__logo img {
+	cursor: pointer;
+}
+
+/*intro*/
+
+
+.intro {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	height: 750px;
+
+	background: url(img/home.png) center  / cover ;
+	padding-top: 100px;
+}
+
+
+.intro__inner {
+	width: 100%;
+	max-height: 970px;
+	
+
+	
+}
+
+
+.intro__title {
+	color:#fff;
+	font-weight: 500;
+    line-height: 1.1;
+	margin: 0 0 30px;
+	font-size: 40px;
+	
+}
+
+.intro__subtitle {
+	color:#fff;
+	margin: 0;
+	font-size: 22px;
+	line-height: 1.5;
+	font-weight: 400;
+	margin-bottom: 60px;
+ 
+}
+
+.intro__text1 {
+	color: #ffffff;
+	border-bottom: 2px solid #ffffff;
+	width: 200px;
+	margin-bottom: 10px;
+
+}
+
+.krug {
+	font-size: 40px;
+	color: #ffffff;
+}
+
+.intro__flex {
+	display: flex;
+	justify-content: space-around;
+}
+
+.intro__btn{
+	color: #ffffff;
+	background: #1B7DFF;
+	height: 50px;
+	width: 171px;
+	text-transform: uppercase;
+	border: none;
+	cursor: pointer;
+
+}
+
+	/*<!-- Benefits of Odigo -->*/
+.benefist__container {
+	margin-top: 100px;
+	width: 100%;
+	max-width: 1100px;
+	margin: 0 auto;
+	padding: 50px 0px 100px 0px;
+
+}
+
+.benefits__inner {
+	display: flex;
+	justify-content: space-between;
+	margin-left: 20px;
+	
+}
+
+.benefits__title {
+    font-size: 35px;
+    max-width: 1262px;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+
+
+
+.next {
+	margin-left: 10px;
+	font-size: 25px;
+	color: #006DFE;
+
+}
+
+.benefits__text img{
+   margin-bottom: 20px;
+}
+
+.benefits__text h2 {
+	margin-bottom: 20px;
+}
+
+.learn {
+	color: #006DFE;
+}
+
+
+/*image*/
+
+
+.img__container {
+	width: 100%;
+	max-width: 1270px;
+	margin: 0 auto;
+}
+
+.img__text{
+	display: flex;
+	justify-content: space-between;
+}
+
+.img__text p {
+	color: #006DFE;
+}
+
+.img__text a {
+	color: #006DFE;
+	font-size:25px;
+	margin-left: 20px;
+}
+
+.img__text h1 {
+	border-bottom: 2px solid #006DFE;
+	width: 420px;
+
+}
+
+.img__text {
+    padding: 0px 0px 30px 0px;
+}
+
+
+/*japan cont city*/
+
+.japan__container {
+	width: 100%;
+	max-width: 1100px;
+	margin: 0 auto;
+}
+
+.japan__images {
+	display: flex;
+	justify-content: space-around;
+	margin-right: 20px;
+
+}
+
+.japan__container1 {
+	width: 100%;
+	max-width: 20px;
+	padding: 0px 0px 200px 0px;
+	margin: 0 auto;
+}
+
+.japan__images1 {
+	display: flex;
+	justify-content: space-around;
+	margin-right: 20px;
+
+}
+
+
+/*perf__container*/
+
+
+.perf__inner {
+	width: 100%;
+	max-width:1300px;
+	padding: 0px 0px 110px 0px;
+	margin:0 auto;
+}
+
+.perf__inner {
+	display: flex;
+	
+}
+
+.perf__image img {
+	padding: 0px 90px 0px 0px;
+}
+
+.pref__href {
+	color: #006DFE;
+}
+
+.perf__text h1 {
+	margin-bottom: 80px;
+}
+
+.perf__text p {
+	margin-bottom: 70px;
+}
+
+/*feat__container*/
+
+
+.feat__container {
+	width: 100%;
+	max-width:1300px;
+	margin:0 auto;
+	padding: 0px 0px 140px 0px;
+}
+
+
+.feat__inner {
+	display: flex;
+	justify-content: space-around;
+}
+
+
+.kyoto {
+	margin-bottom: 70px;
+}
+
+.feat__text p {
+	margin-bottom: 100px;
+}
+
+.feat__images img {
+	padding: 0px 0px 0px 110px;
+}
+
+/*Today top places to visit*/
+
+
+.today__container {
+	width: 100%;
+	max-width: 1280px;
+	margin: 0 auto;
+    padding: 0px 0px 100px 0px;
+}
+
+.today__text h1 {
+   border-bottom: 2px solid #006DFE;
+   
+}
+
+
+/*visit*/
+
+
+.visit__container {
+	width:100%;
+	max-width: 1280px; 
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-around;
+}
+
+.visit__image img {
+	margin-bottom: 20px;
+}
+
+.visit__text p {
+    margin-bottom: 40px;
+}
+
+.visit__text button {
+	color: #ffffff;
+	background: #006DFE;
+	width: 118px;
+	height: 42px;
+	border: none;
+	cursor: pointer;
+	margin-bottom: 20px;
+}
+
+.visit__inner button:hover {
+    background:  #66ff66;
+    color: #000000;
+}
+
+
+/*video*/
+
+
+.video__image img {
+	width: 100%;
+	margin-top: 100px;
+}
+
+
+/*odigo*/
+
+
+
+.odigo__container {
+	background: #0E1D28;
+     width: 100%;
+     height: 370px;
+
+
+}
+
+.odigo__inner {
+	width: 100%;
+	max-width: 1200px;
+	padding: 100px 0px 0px 0px;
+	margin: 0 auto;
+	display: flex;
+    justify-content: space-around;
+}
+
+.odigo__text1 {
+	margin-left: 20px;
+	color: #ffffff;
+	cursor: pointer;
+}
+
+.odigo__text2 {
+	margin-left: 20px;
+	color: #fff;
+	cursor: pointer;
+}
+
+.odigo__text3 {
+	margin-left: 20px;
+	color: #fff;
+	cursor: pointer;
+}
+
+
+.odigo__text1:hover {
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1295px) {
+
+	.japan__images {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.perf__inner {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.perf__image img {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.odigo__inner {
+		display: flex;
+		flex-direction: column;
+
+	}
+
+	.odigo__text3 {
+		color: black;
+	}
+
+	.odigo__text2 {
+		color: black;
+	}
+	.odigo__text1 {
+		color: black;
+	}
+
+	.visit__container{
+		display: flex;
+		flex-direction: column;
+	}
+
+	
+}
+
+@media screen and (max-width: 800px) {
+	.japan__images1 {
+		display: inline-block;
+		max-width: 1770px;
+		width: 100%;
+		
+
+	}
+} 

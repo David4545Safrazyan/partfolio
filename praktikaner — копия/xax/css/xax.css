@@ -1,0 +1,344 @@
+body {
+	padding: 0px;
+	margin: 0px;
+	background: black;
+}
+
+.packmen {
+	  position: absolute;
+	   width: 20px;
+	   height: 10px;
+	   left:0px;
+
+}
+
+.packmen:before {
+ font-family: 'icomoon';
+ content: "\e916";
+ color: green;
+
+}
+
+.gcer {
+	position: absolute;
+	top: 20px;
+	left: 0px;
+	background-color: green;
+	max-width: 1920px;
+	width: 900px;
+	height: 3px;
+}
+
+.start {
+	margin-top:300px;
+}
+
+.hrefiSt {
+	text-decoration: none;
+	color: green;
+}
+.gcer2 {
+	position: absolute;
+	top: 20px;
+	left: 925px;
+	background-color: green;
+	max-width: 1920px;
+	width:610px;
+	height: 3px;
+
+}
+
+.gcer3 {
+	position: absolute;
+	top:45px;
+	left:875px;
+	background-color: green;
+	max-width: 1920px;
+	width:50px;
+	height: 3px;
+	transform: rotate(90deg);
+}
+
+.gcer4 {
+	position: absolute;
+	top:45px;
+	left:900px;
+	background-color: green;
+	max-width: 1920px;
+	width:50px;
+	height: 3px;
+	transform: rotate(90deg);
+}
+
+.start1 {
+	background-color: red;
+
+	width: 40px;
+	height: 20px;
+}
+
+.vniz {
+	color: black;
+}
+
+.gcer5 {
+	position: absolute;
+	top:70px;
+	left:925px;
+	background-color: green;
+	max-width: 1920px;
+	width:200px;
+	height: 3px;
+}
+
+.gcer6 {
+	position: absolute;
+	top:70px;
+	left:772px;
+	background-color: green;
+	max-width: 1920px;
+	width:129px;
+	height: 3px;
+}
+
+.gcer7 {
+	position: absolute;
+	top:95px;
+	left:772px;
+	background-color: green;
+	max-width: 1920px;
+	width:129px;
+	height: 3px;
+}
+
+.gcer8 {
+	position: absolute;
+	top:95px;
+	left:925px;
+	background-color: green;
+	max-width: 1920px;
+	width:200px;
+	height: 3px;
+}
+
+.gcer9 {
+    position: absolute;
+    top: 246px;
+    left: 749px;
+    background-color: green;
+    max-width: 1920px;
+    width: 301px;
+    height: 3px;
+    transform: rotate(90deg);
+}
+
+.gcer10 {
+    position: absolute;
+    top: 176px;
+    left: 843px;
+    background-color: green;
+    max-width: 1920px;
+    width: 165px;
+    height: 3px;
+    transform: rotate(90deg);
+}
+
+.gcer11 {
+	
+    position: absolute;
+    top: 130px;
+    left: 1089px;
+    background-color: green;
+    max-width: 1920px;
+    width: 74px;
+    height: 3px;
+    transform: rotate(90deg);
+
+}
+
+.gcer12 {
+	position: absolute;
+	top:70px;
+	left:1120px;
+	background-color: green;
+	max-width: 1920px;
+	width:30px;
+	height: 3px;
+}
+
+.gcer13 {
+    position: absolute;
+    top: 108px;
+    left: 1113px;
+    background-color: green;
+    max-width: 1920px;
+    width: 77px;
+    height: 3px;
+    transform: rotate(90deg);
+}
+
+.gcer14 {
+	position: absolute;
+	top:145px;
+	left:1150px;
+	background-color: green;
+	max-width: 1920px;
+	width:100px;
+	height: 3px;
+}
+
+.gcer15 {
+	position: absolute;
+	top:169px;
+	left:1124px;
+	background-color: green;
+	max-width: 1920px;
+	width:128px;
+	height: 3px;
+
+}
+
+.gcer16 {
+    position: absolute;
+    top: 114px;
+    left: 1218px;
+    background-color: green;
+    max-width: 1920px;
+    width: 61px;
+    height: 3px;
+    transform: rotate(90deg);
+}
+
+.gcer17 {
+    position: absolute;
+    top: 198px;
+    left: 1220px;
+    background-color: green;
+    max-width: 1920px;
+    width: 61px;
+    height: 3px;
+    transform: rotate(90deg);
+}
+
+.gcer18 {
+	position: absolute;
+	top:84px;
+	left:1247px;
+	background-color: green;
+	max-width: 1920px;
+	width:289px;
+	height: 3px;
+}
+
+.gcer19 {
+	position: absolute;
+	top:227px;
+	left:1280px;
+	background-color: green;
+	max-width: 1920px;
+	width:100px;
+	height: 3px;
+}
+
+.gcer20 {
+    position: absolute;
+    top: 197px;
+    left: 1348px;
+    background-color: green;
+    max-width: 1920px;
+    width: 61px;
+    height: 3px;
+    transform: rotate(90deg);
+}
+
+.gcer21 {
+    position: absolute;
+    top: 194px;
+    left: 1373px;
+    background-color: green;
+    max-width: 1920px;
+    width: 159px;
+    height: 3px;
+    transform: rotate(20deg);
+}
+
+.gcer22 {
+    position: absolute;
+    top: 260px;
+    left: 1246px;
+    background-color: green;
+    max-width: 1920px;
+    width: 68px;
+    height: 3px;
+    transform: rotate(90deg);
+}
+
+.gcer23 {
+    position: absolute;
+    top: 227px;
+    left: 1183px;
+    background-color: green;
+    max-width: 1920px;
+    width: 68px;
+    height: 3px;
+    
+}
+
+.gcer24 {
+    position: absolute;
+    top: 242px;
+    left: 1169px;
+    background-color: green;
+    max-width: 1920px;
+    width: 31px;
+    height: 3px;
+    transform: rotate(90deg);
+}
+
+.gcer25 {
+    position: absolute;
+    top: 292px;
+    left: 928px;
+    background-color: green;
+    max-width: 1920px;
+    width: 352px;
+    height: 3px;
+}
+
+.gcer26 {
+    position: absolute;
+    top: 257px;
+    left: 927px;
+    background-color: green;
+    max-width: 1920px;
+    width: 258px;
+    height: 3px;
+}
+
+.gcer27 {
+    position: absolute;
+    top: 328px;
+    left: 892px;
+    background-color: green;
+    max-width: 1920px;
+    width: 74px;
+    height: 3px;
+    transform: rotate(90deg);
+}
+
+
+.pingvin {
+	position: absolute;
+	   width: 20px;
+	   height: 10px;
+	   left:0px;
+	   background-color: green;
+	   width: 100px;
+	   height: 100px;
+
+}
+.pingvin:before {
+  font-family: 'icomoon';
+  content: "\f1d6";
+  color: white;
+}

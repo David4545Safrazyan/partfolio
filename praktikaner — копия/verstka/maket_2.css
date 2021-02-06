@@ -1,0 +1,238 @@
+@font-face{
+	font-family:"Quicksand-Bold";
+	src:url(./fonts/Quicksand-Bold.ttf);
+}
+
+
+* body {
+	padding: 0px;
+	margin: 0px;
+}
+.text2 {
+	background-color: red;
+	width: 100%;
+	min-height: 90px;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	max-width:100%;
+	flex-direction: column;
+	font-family: "Quicksand-Bold";
+}
+.ping {
+	display: inline-block;
+	margin-right:60px;
+	margin-top:20px;
+}
+.href1 {
+	transform: none;
+	color: white;
+	text-decoration: none;
+}
+.center {
+	text-align: center;
+	margin-top: 100px;
+	font-size: 30px;
+	font-family: "Quicksand-Bold";  
+}
+
+
+.text3 {
+	width: 400px;
+	font-family: "Quicksand-Bold";  
+}
+.display {
+	display: flex;
+	justify-content: space-around;
+	margin-top: 100px;
+	text-align: center;
+}
+.ping:hover {
+	
+}
+.background {
+	background-color:#ff1a1a;
+	width: 100%;
+	min-height:661px;
+}
+.ping1 {
+	
+	color: white;
+	font-family: "Quicksand-Bold";  
+
+}
+.danase {
+	font-family: "Quicksand-Bold";
+}
+.ping2222 {
+	text-align: center;
+}
+.flex1555 {
+	display: flex;
+	justify-content: space-between;
+	color: white;
+	margin-top: 60px;
+
+}
+.textcenter {
+	text-align: center;
+}
+.inputemail {
+	width: 500px;
+	height: 35px;
+	margin-top: 30px;
+	margin-left: 160px;
+	border-radius: 6px;
+
+
+
+}
+.input2 {
+width: 500px;
+	height: 35px;	
+	margin-top: 16px;
+    margin-left: 160px;
+   border-radius: 6px;
+   
+}
+.themehotel {
+	font-family:"Quicksand-Bold"; 
+}
+.textarea {
+	width: 500px;
+	height: 170px;
+	margin-left: 160px;
+	margin-top: 30px;
+	border-radius: 6px;
+	background-color: white;
+}
+.ping2 {
+	display: flex;
+	justify-content: space-around;
+
+}
+.text6 {
+	width: 400px;
+
+}
+.button-send {
+	width: 150px;
+	height: 40px;
+	color: white;
+	background-color: red;
+	border-radius: 6px;
+    border: none;
+}
+.amsativ {
+	font-family:"Quicksand-Bold";  
+}
+.button-send:hover {
+	background-color: white;
+	color: red;
+	border: 1px solid black;
+}
+.button-view {
+	width: 150px;
+	height: 40px;
+	color: white
+	background-color: white;
+	border-radius: 6px;
+	border: 3px solid red;
+
+}
+.button-view:hover {
+	background-color: red;
+}
+.htmcss {
+	font-family: "Quicksand-Bold";  
+}
+.gracccc {
+	width: 400px;
+	font-family: "Quicksand-Bold";
+}
+
+
+
+.flexdirection {
+	flex-direction: column;
+	
+}
+
+.textarea {
+	resize: none;
+}
+.cantact {
+	font-family: "Quicksand-Bold";  
+}
+.informationping {
+	font-family: "Quicksand-Bold"; 
+}
+
+.backgroundred1 {
+	background-color: red;
+	width: 100%;
+	min-height: 140px;
+	margin-top: 60px;
+}
+.backgroundred1-text {
+	text-align: center;
+	padding-top: 50px;
+	font-family: "Quicksand-Bold"; 
+}
+
+
+.padval1 {
+	text-align: center;
+}
+
+@media only screen and (max-width:1200px)
+{
+	.display{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.flex1555{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.ping2{
+    display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.flexdirection {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+
+
+	}
+	.padval1 {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.ping1 {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+
+	}
+	.backgroundred1-textflex {
+	display: flex;
+		flex-direction: column;
+		align-items: center;	
+	}
+}
+@media only screen and (max-width:400px)
+{
+	.display{
+     display: flex;
+		flex-direction: column;
+		align-items: center; 
+		
+	}
+}

@@ -1,0 +1,175 @@
+* body {
+	padding: 0px;
+	margin: 0px;
+	/*background-color:#8c8c8c;
+*/}
+
+.logo {
+	width: 100%;
+	height: 200px;
+}
+
+.gracner1 {
+	display: flex;
+	justify-content: space-around;
+	margin-left: 20px;
+	transform: none;
+    text-decoration: none;
+
+}
+
+.guynkapuyt {
+	background-color: #000066;
+	width: 100%;
+	height: 100px;
+	margin-top: 70px;
+}
+
+.kategoria {
+	width: 200px;
+	height: 40px;
+	margin-top: 30px;
+	margin-left: 100px;
+	background-color: #00ff00;
+	color: black;
+}
+
+.inputvse {
+ width: 600px;
+ height: 30px;
+ margin-left: 30px;
+}
+
+.poiskiknopka1 {
+ position: absolute;
+ width: 35px;
+ top: 529px;
+ left: 940px;
+
+
+}
+.center1 {
+	text-align: center;
+}
+
+.background1 {
+	background-color:#e6e6e6;
+	width: 290px;
+	height: 400px;
+}
+
+.koleso {
+	width: 160px;
+	margin-top: 20px;
+	margin-left: 50px;
+
+}
+.text1 {
+	font-size: 20px;
+}
+.text2 {
+	font-size: 15px;
+	padding-top: 20px;
+	padding-left: 65px;
+}
+
+.button123 {
+	margin-top: 10px;
+	width:290px;
+}
+
+.tiv1 {
+	margin-left: 140px;
+	font-size:15px;
+}
+
+.plyus123 {
+	width: 290px;
+}
+.displayflex1 {
+	display: flex;
+	justify-content:space-around;
+}
+
+.background2 {
+	background-color:#e6e6e6;
+	width: 290px;
+	height: 400px;
+	margin-top: 25px;
+}
+
+.far {
+	width:158px;
+	margin-top: 20px;
+	margin-left: 65px;
+}
+
+.text3 {
+	font-size: 20px;
+	padding-top: 38px;
+}
+
+.text4 {
+	font-size: 15px;
+	padding-top: 20px;
+	padding-left: 80px;	
+}
+
+.input3 {
+	width: 50px;
+	height: 30px;
+	margin-left: 40px;
+	margin-top: 30px;
+}
+
+.displayflex2 {
+	display: flex;
+	justify-content: space-around;
+}
+
+.background3 {
+	background-color:#e6e6e6;
+	width: 290px;
+	height: 400px;
+	margin-top: 25px;
+}
+.steklo {
+	width:158px;
+	margin-top: 20px;
+	margin-left: 65px;
+}
+.text5 {
+	font-size: 20px;
+	padding-top: 38px;
+}
+
+.text6 {
+	font-size: 15px;
+	padding-top: 20px;
+	padding-left: 80px;	
+}
+.input4 {
+width: 50px;
+	height: 30px;
+	margin-left: 40px;
+	margin-top: 30px;
+}
+.displayflex3 {
+	display: flex;
+	justify-content: space-around;
+}
+.input123 {
+	width:65px;
+	height: 30px;
+
+}
+
+.input124 {
+	width:50px;
+	height: 30px;
+}
+.grancvel1 {
+	width: 100px;
+	height: 25px;
+
+}
